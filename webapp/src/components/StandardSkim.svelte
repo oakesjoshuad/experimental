@@ -13,7 +13,7 @@
 
 <form on:submit|preventDefault>
 	<fieldset>
-		<legend>Standard 0/16" Skim Estimate</legend>
+		<legend>Standard 1/16" Skim Estimate</legend>
 		<label for="area">SF</label>
 		<input id="area" type="number" bind:value={prepArea} on:change={estimateSkim} />
 		<br />
