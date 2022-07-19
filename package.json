@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "sass": "^1.5.1",
+    "svelte-preprocess": "^3.7.2"
+  }
+}

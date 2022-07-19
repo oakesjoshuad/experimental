@@ -26,8 +26,8 @@
 <form on:submit|preventDefault>
 	<fieldset>
 		<legend>Prevailing Wage Estimate</legend>
-		<label for="laborCost">Labor Cost</label>
-		<input id="laborCost" type="number" bind:value={laborCost} />
+		<label for="laborCost">Labor Cost:</label>
+		<input id="laborCost" type="number" bind:value={laborCost} on:change={estimatePrevailingWage} />
 		<br />
 		<label for="dayHours">Daytime Hours:</label>
 		<input id="dayHours" type="number" bind:value={dayHours} on:change={estimatePrevailingWage} />
